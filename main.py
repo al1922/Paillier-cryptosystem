@@ -6,7 +6,7 @@ if __name__ == "__main__":
     
     private_key, public_key = generateKey(nbits = 128) # Generate private and public key n-bits long.
 
-    data = range(200) # Example of data. Sum = 300.
+    data = [20, 50, 70, 120] # Example of data. 
 
     encrypt_data = encrypt(data, public_key) # Encrypt data.
 
