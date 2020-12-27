@@ -15,8 +15,8 @@ You can do it as follows:
 
 1. Go to <code>https://www.lfd.uci.edu/~gohlke/pythonlibs/</code> and find the column **GMPY**.
 2. Make sure that your **python vesrion** is the same like **gmpy2**.<br /> For example, I have **python version 3.9**, so i need download **gmpy2‑2.0.8‑cp39‑cp39‑win_amd64.whl**.<br /> <code>cp39 = python version 3.9.0 </code>
-3. Go to your terminal and run: ```pip install C:\Users\Downloads\gmpy2-2.0.8-cp39-cp39-win_amd64.whl``` <br/> Make sure that the file name is the same as name on the page where you downloaded it.
-4. Go to your terminal and run: ```pip show gmpy2``` and find **Location**.<br/> For example,on my computer is: c:\users\itakciezjem\appdata\local\programs\python\python39\lib\site-packages
+3. Go to your terminal and install: ```pip install C:\Users\Downloads\gmpy2-2.0.8-cp39-cp39-win_amd64.whl``` <br/> Do NOT rename the file !
+4. Go to your terminal and run: ```pip show gmpy2``` and find **Location**.<br/> For example, on my computer is: c:\users\itakciezjem\appdata\local\programs\python\python39\lib\site-packages
 5. Find file with name <code>gmpy2.cp39-win_amd64.pyd</code> copy and paste into ***lib*** folder.<br/> On my computer is: c:\users\itakciezjem\appdata\local\programs\python\python39\lib
 
 ## Use 
