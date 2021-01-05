@@ -1,10 +1,8 @@
 from gmpy2 import mul, div
-from functools import reduce
 
 """  Brief explanation of imported functions:
         mul: returns the multiplication of x and y.
         div: returns the division of x and y.
-        reduce: apply the specified function passed in its argument to all list items.
 
     gmpy2 documentation: https://readthedocs.org/projects/gmpy2/downloads/pdf/latest/
 """
