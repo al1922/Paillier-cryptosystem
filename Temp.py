@@ -1,6 +1,6 @@
 if __name__ == "__main__":
     
-    private_key, public_key = generateKey(nbits = 1028) # Generate private and public key n-bits long.
+    private_key, public_key = generateKey(nbits = 1024) # Generate private and public key n-bits long.
 
     data_1 = 29 # Example of data. 
     data_2 = 31  # Example of data. 
