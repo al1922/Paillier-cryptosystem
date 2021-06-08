@@ -9,7 +9,11 @@ from gmpy2 import next_prime, is_prime
     secrets documentation: https://docs.python.org/3/library/secrets.html
     gmpy2 documentation: https://readthedocs.org/projects/gmpy2/downloads/pdf/latest/
 """
+def generatePrimeNumbers(nbits):
 
+    """ This function generate two n-bits Safe prime numbers.
+        Where:
+            nbits: The number of bits in generete number. """
 
     def generatePrime(nbits):
 
@@ -30,12 +34,6 @@ from gmpy2 import next_prime, is_prime
             safe_prime_number = 2 * prime_number - 1  # Calculation of n-bits Safe prime number.
             if (is_prime(safe_prime_number)): # Checking if the calculated Number is prime.
                 return safe_prime_number
-
-def generatePrimeNumbers(nbits):
-
-    """ This function generate two n-bits Safe prime numbers.
-        Where:
-            nbits: The number of bits in generete number. """
 
     fisrt_number = generateSafePrime(nbits) # Generation of the first prime number.
     second_number = generateSafePrime(nbits) # Generation of the second prime number.
